@@ -1,10 +1,9 @@
 import { AceClass, Action, Behavior, Condition, Expression, Param, Trigger } from "c3-framework";
 import Config from "./addon";
 
-const C3 = globalThis.C3;
 
 @AceClass()
-class Instance extends Behavior.Instance(Config) {
+class Instance extends Behavior.Instance<IWorldInstance>(Config) {
   _speed: number;
   _isStopOnSolid: boolean;
   _isEnabled: boolean;
