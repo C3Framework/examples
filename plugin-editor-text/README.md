@@ -1,19 +1,19 @@
 <img src="./src/icon.svg" width="100" /><br>
 
-# My text plugin 
+# My text plugin
 
 Example custom text drawing Construct 3 plugin.
 
 Author: Master Pose <br>
-Website: [https://github.com/MasterPose/c3-framework-examples](https://github.com/MasterPose/c3-framework-examples) <br>
-Addon Url: [https://github.com/MasterPose/c3-framework-examples](https://github.com/MasterPose/c3-framework-examples) <br>
-Download Latest Version : [Version: 1.0.0.0](https://github.com/MasterPose/c3-framework-examples/releases/latest) <br>
+Website: [https://github.com/C3Framework/examples](https://github.com/C3Framework/examples) <br>
+Addon Url: [https://github.com/C3Framework/examples](https://github.com/C3Framework/examples) <br>
+Download Latest Version : [Version: 1.0.0.0](https://github.com/C3Framework/examples/releases/latest) <br>
 
 <br>
 
 <sub>
 
-Made using [c3-framework](https://github.com/MasterPose/c3-framework) 
+Made using [c3-framework](https://github.com/C3Framework/framework)
 
 </sub>
 
@@ -39,17 +39,17 @@ npm install
 To build the addon, run the following command:
 
 ```
-npx alfred build
+npx c3fo build
 ```
 
 To start the dev server, run:
 
 ```
-npx alfred build -D
+npx c3fo build -D
 ```
 
 The build uses the `addon.ts` file for the configurations and the `runtime.ts` file as the entry point to generate everything else.
-The files defined with `@AceClass` contain all the Actions, Conditions and Expressions logic and configuration, you may want to check them. 
+The files defined with `@AceClass` contain all the Actions, Conditions and Expressions logic and configuration, you may want to check them.
 
 ## Examples Files
 
